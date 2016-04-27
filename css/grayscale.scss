@@ -83,7 +83,7 @@ a {
     border-bottom: 1px solid rgba($font-color, 0.3);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: $navbar-sm-background-color;
+    background-color: #00cdff;
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -178,6 +178,7 @@ a {
         }
         .intro-text {
             font-size: 18px;
+            font-family: monospace;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }

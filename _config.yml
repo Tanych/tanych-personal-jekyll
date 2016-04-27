@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://tanych.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -22,43 +22,44 @@ google-tracking-id: "UA-35880426-4"
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: False
 
 #############
 # HTML Head #
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+author: "Yecheng Tan"
+title: "Victor"
+description: "This is the personal page for Yecheng Tan, a student from the George Washington University."
+keywords: "Yecheng Tan, victor, gwu, creativeness, jekyll"
+favicon: "/img/logo_32.png"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/logo_32.png"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
-delete-delay: 5000
+delete-delay: 2000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "If we don't change, we don't grow."
+  - text: "If we don't grow, we aren't really living."
+  - text: "By Gail Sheehy."
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/logo.png"
 
 ##############################
 # Color the browser elements #
@@ -74,12 +75,12 @@ web-app-mode: True
 
 # Icons for Web App mode
 
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
+icon-36p: "/img/web-app/icon-36.png"
+icon-48p: "/img/web-app/icon-48.png"
+icon-72p: "/img/web-app/icon-72.png"
+icon-96p: "/img/web-app/icon-96.png"
+icon-144p: "/img/web-app/icon-144.png"
+icon-192p: "/img/web-app/icon-192.png"
 
 ########
 # Blog #
@@ -100,7 +101,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "victor"
 
 syntax-highlight: True
 
@@ -124,7 +125,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "ychtan@gwu.edu"
 
 ################
 # Author Blurb #
@@ -134,8 +135,8 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "Yecheng Tan, a student from the George Washington University, on the way to make creativeness be anywhere."
+author_blurb_image: "/img/author.jpg"
 
 ##################
 # Social Buttons #
@@ -147,9 +148,7 @@ social:
   - title: "twitter"
     url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/Tanych"
   - title: "rss"
     url: "/feed.xml"
 
@@ -157,7 +156,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: "/img/404.png"
 
 ################################################################################
 
